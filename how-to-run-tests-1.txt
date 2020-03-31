@@ -1,0 +1,11 @@
+Run docker-compose up and run your container.
+copy container id
+Open new tab and run --> docker exec -it containerid npm run test
+
+his is one way.
+
+Other way will be to create a new service in compose file and change run command, as added in compose file
+
+his is one way.
+
+Other way will be to create a new service in compose file and change run command, as added in compose file
