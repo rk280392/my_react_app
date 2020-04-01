@@ -3,7 +3,7 @@ sudo: required
 services:
         - docker
 before_install:
-        - docker build -t rk90229/my_react_app -f Dockerfile .
+        - docker build -t rk90229/my_react_app -f Dockerfile.dev .
 script:
         - docker run -e CI=true rk90229/my_react_app npm run test
 
