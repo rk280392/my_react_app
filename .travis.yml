@@ -5,7 +5,7 @@ services:
 before_install:
         - docker build -t rk90229/my_react_app -f Dockerfile .
 script:
-        - docker run -e CI=true rk90229/my_react_app npm run test -- --coverage
+        - docker run -e CI=true rk90229/my_react_app npm run test
 
 deploy:
         edge: true
